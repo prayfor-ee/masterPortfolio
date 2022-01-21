@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "KiWon's Portfolio",
-  description:
-    "Hello, I'm KiWon Leetestest. \nI'm a software developer. I think the item I developed can help someone, and I always do my best anywhere for it.",
+  description: "Hello, I'm KiWon Lee",
   og: {
     title: "LEE KIWON Portfolio",
     type: "website",
@@ -19,10 +18,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "LEE KIWON Portfolio",
+  title: "LEE KI WON Portfolio",
   logo_name: "LEE KI WON",
-  nickname: "KiWon",
-  subTitle: "Hello, I'm KiWon Lee. I'm a software developer.",
+  nickname: "prayfor.ee",
+  subTitle:
+    "Hello, I'm KiWon Lee. \nI'm a software developer. I think the item I developed can help someone, and I always do my best anywhere for it.",
   portfolio_repository: "https://github.com/prayfor-ee/prayfor-ee.github.io",
   githubProfile: "https://github.com/prayfor-ee",
 };
@@ -51,6 +51,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/_kiwon_lee/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Instagram",
+    link: "https://kiwonlee23.blogspot.com/",
+    fontAwesomeIcon: "fa-blog", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#B7F0B1", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
