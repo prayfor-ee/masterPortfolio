@@ -72,14 +72,14 @@ const skills = {
       softwareSkills: [
         {
           skillName: "C",
-          fontAwesomeClassname: "logos-C",
+          fontAwesomeClassname: "ion-logo-python", //"logos-C",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "logos-C++",
+          fontAwesomeClassname: "ion-logo-python", //"logos-C++",
           // fontAwesomeClassname: "simple-icons:keras",
           style: {
             backgroundColor: "white",
@@ -88,7 +88,7 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "logos-Java",
+          fontAwesomeClassname: "ion-logo-python", //"logos-Java",
           style: {
             backgroundColor: "transparent",
           },
@@ -103,7 +103,7 @@ const skills = {
         },
         {
           skillName: "Embedded Linux",
-          fontAwesomeClassname: "logos-Linux",
+          fontAwesomeClassname: "ion-logo-python", //"logos-Linux",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -111,7 +111,7 @@ const skills = {
         },
         {
           skillName: "QT",
-          fontAwesomeClassname: "logos-Linux",
+          fontAwesomeClassname: "ion-logo-python", //"logos-Linux",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -119,7 +119,7 @@ const skills = {
         },
         {
           skillName: "Robot",
-          fontAwesomeClassname: "logos-Robot",
+          fontAwesomeClassname: "ion-logo-python", //"logos-Robot",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
