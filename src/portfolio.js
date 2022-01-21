@@ -21,7 +21,7 @@ const greeting = {
   title: "LEE KI WON Portfolio",
   logo_name: "LEE KI WON",
   nickname: "prayfor.ee",
-  subTitle: `Hello, I'm KiWon Leetest. 
+  subTitle: `Hello, I'm KiWon Lee test1. 
     I'm a software developer. 
     I think the item I developed can help someone, and I always do my best anywhere for it.`,
   portfolio_repository: "https://github.com/prayfor-ee/prayfor-ee.github.io",
