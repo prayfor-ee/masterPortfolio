@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7244341c.chunk.css",
-    "main.js": "/static/js/main.57f28b5d.chunk.js",
-    "main.js.map": "/static/js/main.57f28b5d.chunk.js.map",
+    "main.css": "/static/css/main.3dcaec80.chunk.css",
+    "main.js": "/static/js/main.91805e07.chunk.js",
+    "main.js.map": "/static/js/main.91805e07.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.65e54966.js",
     "runtime-main.js.map": "/static/js/runtime-main.65e54966.js.map",
-    "static/js/2.2a7edc02.chunk.js": "/static/js/2.2a7edc02.chunk.js",
-    "static/js/2.2a7edc02.chunk.js.map": "/static/js/2.2a7edc02.chunk.js.map",
+    "static/js/2.e57ebd76.chunk.js": "/static/js/2.e57ebd76.chunk.js",
+    "static/js/2.e57ebd76.chunk.js.map": "/static/js/2.e57ebd76.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13c12bb63f05b5ff8eb354c668acce61.js": "/precache-manifest.13c12bb63f05b5ff8eb354c668acce61.js",
+    "precache-manifest.377470f41c0da7fd32a15d6c20df44aa.js": "/precache-manifest.377470f41c0da7fd32a15d6c20df44aa.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7244341c.chunk.css.map": "/static/css/main.7244341c.chunk.css.map",
+    "static/css/main.3dcaec80.chunk.css.map": "/static/css/main.3dcaec80.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.be4f4800.png",
@@ -45,14 +45,15 @@
     "static/media/projects_image.svg": "/static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "/static/media/pwa.71408db7.png",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.2c497738.png",
+    "static/media/suresofttectlogo.gif": "/static/media/suresofttectlogo.93fa7979.gif",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.65e54966.js",
-    "static/js/2.2a7edc02.chunk.js",
-    "static/css/main.7244341c.chunk.css",
-    "static/js/main.57f28b5d.chunk.js"
+    "static/js/2.e57ebd76.chunk.js",
+    "static/css/main.3dcaec80.chunk.css",
+    "static/js/main.91805e07.chunk.js"
   ]
 }
