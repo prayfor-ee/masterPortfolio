@@ -164,7 +164,7 @@ const degrees = {
       alt_name: "kangwon Univ",
       duration: "2010 - 2015",
       descriptions: [
-        "⚡ I did link process between a scholar and a master's degree.",
+        "⚡ I did link process between a bachelor's degree and a master's degree.",
         "⚡ I have studied classes mainly for major subjects.",
         "⚡ I have studied a national research project related to robots.",
       ],
@@ -225,7 +225,7 @@ const experience = {
           duration: "June 2018 - PRESENT",
           location: "Seoul, Korea",
           description:
-            "I am developing a Graybox(GBox) framework for AVN(Audio-Video Navigation) automation verification in Linux environment.\n I am developing a Python program (Windows environment) to automatically allocate issues detected through GrayBox to developers through Jira.\n In addition, i developed and maintained tools for detecting memory leakage and CPU load in AVN (Linux C/C++ and Windows Eclipse Plugins RCP_Java).",
+            "I am developing a Graybox(GBox) framework for AVN(Audio-Video Navigation) automation verification in Linux environment.\n I am developing a Python program (Windows environment) to automatically allocate issues detected through GrayBox to developers through Jira.\n In addition, i developed and maintained tool for detecting memory leakage and CPU load in AVN (Linux C/C++ and Windows Eclipse Plugins RCP_Java).",
           color: "#0879bf",
         },
         {

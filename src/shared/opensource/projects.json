@@ -8,7 +8,7 @@
       "isFork": false,
       "languages": [
         {
-          "name": "C/C++",
+          "name": "C",
           "iconifyClass": "healthicons:c"
         },
         {
@@ -44,7 +44,7 @@
       "isFork": false,
       "languages": [
         {
-          "name": "C/C++",
+          "name": "C",
           "iconifyClass": "healthicons:c"
         },
         {
@@ -52,25 +52,25 @@
           "iconifyClass": "gg:c-plus-plus"
         },
         {
-          "name": "Linux",
-          "iconifyClass": "logos:linux-tux"
-        },
-        {
           "name": "QT",
           "iconifyClass": "logos:qt"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "logos:linux-tux"
         }
       ]
     },
     {
       "id": "4=",
       "name": "AVN(Audio-Video Navigation) Voice-recognition application",
-      "createdAt": "2018-11-03T05:00:56Z",
+      "createdAt": "2017.05.22 ~ 2018.06.22",
       "url": "",
       "description": "Development of application interworking interface, app, and UI.",
       "isFork": false,
       "languages": [
         {
-          "name": "C/C++",
+          "name": "C",
           "iconifyClass": "healthicons:c"
         },
         {
@@ -78,25 +78,25 @@
           "iconifyClass": "gg:c-plus-plus"
         },
         {
-          "name": "Linux",
-          "iconifyClass": "logos:linux-tux"
-        },
-        {
           "name": "QT",
           "iconifyClass": "logos:qt"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "logos:linux-tux"
         }
       ]
     },
     {
       "id": "5=",
-      "name": "GrayBox Testing Framework",
-      "createdAt": "2019-08-13T13:13:00Z",
-      "url": "https://github.com/dsc-iiitdmk/Pick-Parser",
-      "description": "Development of the Full function of GrayBox",
+      "name": "AMOS",
+      "createdAt": "2018.06.27 ~ 2018.10.31",
+      "url": "",
+      "description": "Development of tool for detecting memory leakage and CPU load in AVN (Linux C/C++ and Windows Eclipse Plugins RCP_Java).",
       "isFork": false,
       "languages": [
         {
-          "name": "C/C++",
+          "name": "C",
           "iconifyClass": "healthicons:c"
         },
         {
@@ -104,12 +104,38 @@
           "iconifyClass": "gg:c-plus-plus"
         },
         {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
           "name": "Linux",
           "iconifyClass": "logos:linux-tux"
+        }
+      ]
+    },
+    {
+      "id": "6=",
+      "name": "GrayBox Testing Framework",
+      "createdAt": "2018.10.01 ~ ",
+      "url": "",
+      "description": "Development of the Full function of GrayBox",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C",
+          "iconifyClass": "healthicons:c"
+        },
+        {
+          "name": "C++",
+          "iconifyClass": "gg:c-plus-plus"
         },
         {
           "name": "QT",
           "iconifyClass": "logos:qt"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "logos:linux-tux"
         }
       ]
     }
