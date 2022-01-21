@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "prayfor-ee",
-  "homepage": ".",
+  "homepage": "https://prayfor-ee.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
