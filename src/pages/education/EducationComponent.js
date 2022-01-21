@@ -4,9 +4,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -31,9 +29,8 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  This page shows degrees and papers.
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
           </Fade>

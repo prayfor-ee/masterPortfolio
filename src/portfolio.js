@@ -21,7 +21,7 @@ const greeting = {
   title: "LEE KI WON Portfolio",
   logo_name: "LEE KI WON",
   nickname: "prayfor.ee",
-  subTitle: `Hello, I'm KiWon Lee test 3. 
+  subTitle: `Hello, I'm KiWon Lee test 4. 
     I'm a software developer. 
     I think the item I developed can help someone, and I always do my best anywhere for it.`,
   portfolio_repository: "https://github.com/prayfor-ee/prayfor-ee.github.io",
@@ -79,23 +79,23 @@ const skills = {
       softwareSkills: [
         {
           skillName: "C",
-          fontAwesomeClassname: "ion-logo-python", //"logos-C",
+          fontAwesomeClassname: "healthicons:c", //"logos-C",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "ion-logo-python", //"logos-C++",
+          fontAwesomeClassname: "gg:c-plus-plus", //"logos-C++",
           // fontAwesomeClassname: "simple-icons:keras",
           style: {
-            backgroundColor: "white",
+            backgroundColor: "transparent",
             color: "#D00000",
           },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "ion-logo-python", //"logos-Java",
+          fontAwesomeClassname: "logos:java", //"logos-Java",
           style: {
             backgroundColor: "transparent",
           },
@@ -110,7 +110,7 @@ const skills = {
         },
         {
           skillName: "Embedded Linux",
-          fontAwesomeClassname: "ion-logo-python", //"logos-Linux",
+          fontAwesomeClassname: "logos:linux-tux", //"logos-Linux",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -118,7 +118,7 @@ const skills = {
         },
         {
           skillName: "QT",
-          fontAwesomeClassname: "ion-logo-python", //"logos-Linux",
+          fontAwesomeClassname: "logos:qt", //"logos-Linux",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -126,7 +126,7 @@ const skills = {
         },
         {
           skillName: "Robot",
-          fontAwesomeClassname: "ion-logo-python", //"logos-Robot",
+          fontAwesomeClassname: "icon-park-outline:robot-one", //"logos-Robot",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -138,57 +138,13 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  ],
-};
 
 const degrees = {
-  degrees: [
+  mastersdegrees: [
     {
-      title: "Kangwon National University",
+      title: "Kangwon National University (Master's degree)",
       subtitle: "Electronics and Communications Engineering",
-      logo_path: "kangwonlogo.png",
+      logo_path: "kangwon_logo.png",
       alt_name: "kangwon Univ",
       duration: "2013 - 2015",
       descriptions: [
@@ -200,117 +156,52 @@ const degrees = {
       website_link: "http://kangwon.ac.kr",
     },
   ],
+  bachelordegrees: [
+    {
+      title: "Kangwon National University (Bachelor's degree)",
+      subtitle: "Electronics and Communications Engineering",
+      logo_path: "kangwon_logo.png",
+      alt_name: "kangwon Univ",
+      duration: "2010 - 2015",
+      descriptions: [
+        "⚡ I did link process between a scholar and a master's degree.",
+        "⚡ I have studied classes mainly for major subjects.",
+        "⚡ I have studied a national research project related to robots.",
+      ],
+      website_link: "http://kangwon.ac.kr",
+    },
+  ],
 };
 
-const certifications = {
+const papers = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+      title: "OPRoS-ROS간 데이터 교환 및 서비스 호출을 위한 브리지",
+      subtitle:
+        "Journal of Institute of Control, Robotics and Systems(ICROS 2016), vol.22, no.2, pp. 153-161 (9 pages), 2016 - 2016.05.01",
+      logo_path: "icros.gif",
+      certificate_link: "http://icros.org/",
+      alt_name: "",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      title:
+        "Bridge for Exchange of Data/Service between Robot Software Platforms - OPRoS and ROS",
+      subtitle:
+        "International Conference on Control, Automation and Systems (ICCAS 2015) - 2015.10.13",
+      logo_path: "icros.gif",
+      certificate_link: "http://icros.org/",
+      alt_name: "",
+      color_code: "#FFFFFF",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+      title: "DocT - Document Management and Testing Tool for Robot Software",
+      subtitle:
+        "The 11th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI 2014) - 2014.11.12",
+      logo_path: "kros.gif",
+      certificate_link: "http://kros.org/",
+      alt_name: "",
+      color_code: "#FFFFFF",
     },
   ],
 };
@@ -326,7 +217,8 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Embedded Linux & Windows Python Developer",
+          title:
+            "Embedded Software Developer (Embedded Linux C/C++, Windows Python, Java_Eclipse Plugins RCP)",
           company: "SureSoftTech",
           company_url: "https://www.suresofttech.com/",
           logo_path: "suresofttectlogo.gif",
@@ -337,25 +229,24 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Seoul, Korea",
+          title: "Embedded Software Developer (Embedded Linux C/C++, QT, QML)",
+          company: "MediaZen",
+          company_url: "http://www.mediazen.co.kr/",
+          logo_path: "mediazen.png",
+          duration: "May 2017 - June 2018",
+          location: "Seongnam, Korea",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I developed AVN(AudioNavigation) voice-recognition application (Linux QT) for vehicles (Platform Area: Europe, North America, and Korea)",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
+          title: "Embedded Software Developer (Embedded Linux C/C++, QT, QML)",
+          company: "SHC(신흥정밀)",
+          company_url: "http://www.shc.co.kr/",
+          logo_path: "shc.png",
+          duration: "July 2016 - May 2017",
           location: "Seoul, Korea",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          description: "I developed CAT(Credit Authorization Terminal).",
           color: "#fc1f20",
         },
       ],
@@ -367,14 +258,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "I have experienced various projects and tasks. My best experience was to be released as a real product. The product developed and distributed applications in embedded Linux environment.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -382,27 +266,12 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    profile_image_path: "kiwonlee.jpg",
+    description: "If you need my help, please contact me by email.",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 8320758513",
+    title: "E-mail",
+    subtitle: "prayfor.ee@gmail.com",
   },
 };
 
@@ -412,11 +281,9 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
-  certifications,
+  papers,
   experience,
   projectsHeader,
-  publicationsHeader,
   contactPageData,
 };
