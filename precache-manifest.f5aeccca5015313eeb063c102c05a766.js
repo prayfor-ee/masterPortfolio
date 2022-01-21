@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8823ce76f2fbc938ce1471fe3359254",
+    "revision": "71f82f566bdbd36022aa6a6847d0d3a6",
     "url": "/index.html"
   },
   {
-    "revision": "627e3e090a6667d9e2df",
-    "url": "/static/css/main.82be2df8.chunk.css"
+    "revision": "3c2ad9815c6cf6ea1360",
+    "url": "/static/css/main.c3c70502.chunk.css"
   },
   {
-    "revision": "766eb33b8b489666ab78",
-    "url": "/static/js/2.55389d8f.chunk.js"
+    "revision": "42aa2e36cc0b3091a501",
+    "url": "/static/js/2.3eee5342.chunk.js"
   },
   {
-    "revision": "627e3e090a6667d9e2df",
-    "url": "/static/js/main.d73c1583.chunk.js"
+    "revision": "3c2ad9815c6cf6ea1360",
+    "url": "/static/js/main.0b713b20.chunk.js"
   },
   {
     "revision": "5818c645fddea0b2eaa5",
@@ -204,6 +204,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jsFramework.5b4a6449.svg"
   },
   {
+    "revision": "343403fab050b6c5400839a76c78046b",
+    "url": "/static/media/kiwonlee.343403fa.jpg"
+  },
+  {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "/static/media/legato_logo.c597fbde.png"
   },
@@ -240,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanford_logo.2c497738.png"
   },
   {
-    "revision": "93fa797903a41f1e02855ceb9319fb5d",
-    "url": "/static/media/suresofttectlogo.93fa7979.gif"
+    "revision": "0585cf5f278b260ce88a19c5901f8f6c",
+    "url": "/static/media/suresofttectlogo.0585cf5f.gif"
   },
   {
     "revision": "6ac91b161c2c9934a44f72d75d18142d",
