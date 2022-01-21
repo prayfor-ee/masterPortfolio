@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "KiWon's Portfolio",
   description:
-    "Hello, I'm KiWon Lee. \nI'm a software developer. I think the item I developed can help someone, and I always do my best anywhere for it.",
+    "Hello, I'm KiWon Leetestest. \nI'm a software developer. I think the item I developed can help someone, and I always do my best anywhere for it.",
   og: {
     title: "LEE KIWON Portfolio",
     type: "website",
