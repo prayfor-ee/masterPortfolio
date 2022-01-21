@@ -21,7 +21,7 @@ const greeting = {
   title: "LEE KI WON Portfolio",
   logo_name: "LEE KI WON",
   nickname: "prayfor.ee",
-  subTitle: `Hello, I'm KiWon Lee test1. 
+  subTitle: `Hello, I'm KiWon Lee test2. 
     I'm a software developer. 
     I think the item I developed can help someone, and I always do my best anywhere for it.`,
   portfolio_repository: "https://github.com/prayfor-ee/prayfor-ee.github.io",
@@ -184,35 +184,19 @@ const competitiveSites = {
 };
 
 const degrees = {
-  mastersdegrees: [
+  degrees: [
     {
-      title: "Kangwon National University",
-      subtitle: "Electronics and Communications Engineering",
-      logo_path: "kangwon.png",
-      alt_name: "kangwon Univ",
-      duration: "2013 - 2015",
+      title: "Indian Institute of Information Technology Kurnool",
+      subtitle: "B.Tech. in Computer Engineering",
+      logo_path: "iiitk_logo.png",
+      alt_name: "IIITDM Kurnool",
+      duration: "2016 - Present",
       descriptions: [
-        "⚡ I have studied mainly robot software platforms.",
-        "⚡ Apart from this, I have done courses on Software Development.",
-        "⚡ I have studied a national research project related to robots.",
-        '⚡ I suggested "a bridge for exchanging data and services between heterogeneous robot software platforms" as my graduation thesis.',
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://kangwon.ac.kr",
-    },
-  ],
-  bachelordegrees: [
-    {
-      title: "Kangwon National University",
-      subtitle: "Electronics and Communications Engineering",
-      logo_path: "kangwon.png",
-      alt_name: "kangwon Univ",
-      duration: "2010 - 2015",
-      descriptions: [
-        "⚡ I did link process between a scholar and a master's degree.",
-        "⚡ I have studied classes mainly for major subjects.",
-        "⚡ I have studied a national research project related to robots.",
-      ],
-      website_link: "http://kangwon.ac.kr",
+      website_link: "http://iiitk.ac.in",
     },
   ],
 };
