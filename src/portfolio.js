@@ -210,7 +210,7 @@ const experience = {
   title: "Career",
   subtitle: "Work",
   description:
-    "I'm a software developer. I worked as a developer for several companies. I mainly handled my work in an embedded Linux environment, but there are no restrictions on Windows development. I think the item I developed can help someone, and I always do my best anywhere for it.",
+    "I'm a embedded software developer. I worked as a developer for several companies. I mainly handled my work in an embedded Linux environment, but there are no restrictions on Windows development. I think the item I developed can help someone, and I always do my best anywhere for it.",
   header_image_path: "experience.svg",
   sections: [
     {
